@@ -1,0 +1,105 @@
+/* Reset de margem e padding para todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilização do body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    width: auto;
+    
+    
+   
+    
+}
+
+/* Estilização do header e menu */
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background: #555;
+    border-radius: 3px;
+}
+
+/* Estilização das seções */
+section {
+    padding: 20px;
+    margin: 10px;
+}
+
+section h1 {
+    margin-bottom: 10px;
+}
+h1{
+font-size: 40px;
+
+
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    align-items: center;
+}
+#principal {
+
+text-align: center;
+height: 400px;
+width: 80%;
+margin-left: 10%;
+}
+#formacao {
+
+   
+    height: 400px;
+    width: 80%;
+    
+
+}
+p {
+    margin-top: 40px;
+    font-size: 20px;
+}
+#lista_fomacao{
+
+    font-size: 20px;
+    margin-top: 25px;
+
+}
+
+#idioma{
+margin-top: 20px;
+
+
+
+}
+
+
+
+
+
+
+
